@@ -109,7 +109,7 @@ public class GameTest {
         // Note that horizontal here is vertical in UI and vise versa
         char[][] grid2 = {  {'x', 'x', 'o'},
                             {'o', 'o', 'o'},
-                            {'x', 'o', 'x'}};
+                            {'x', '-', 'x'}};
         assertTrue("o vertical win fail", game.checkGameWinner(grid2).equalsIgnoreCase("o wins"));
     }
     @Test
